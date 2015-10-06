@@ -87,11 +87,20 @@ header h2 {
 #container {
   min-height: 595px;
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  height: 100%;
 }
 
 .inner {
-  width: 620px;
+  width: 760px;
   margin: 0 auto;
+}
+
+#main_content {
+  height: 100%;
+}
+
+iframe {
+  height: 100%;
 }
 
 #container .inner img {
